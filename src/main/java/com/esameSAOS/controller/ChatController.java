@@ -14,9 +14,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 @RestController
 public class ChatController {
 
-	// Chiave segreta per firmare/verificare il JWT
-	//private static final String JWT_SECRET = "segretoSuperSicuro";
-
 	private final JwtTokenService service;
 
 	@Autowired
