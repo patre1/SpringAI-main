@@ -90,7 +90,8 @@ Bisogna inserire le seguenti dipendenze nel proprio file pom.xml
 
 ## Utilizzo 
 Per prima cosa bisogna creare una chiave openAI al seguente link (https://platform.openai.com/api-keys) ed inserirla come variabile d'ambiente:
-[VARIABILE AMBIENTE] (immagini/variabileAmbiente.png)
+[VARIABILE AMBIENTE] <br>
+<img src="immagini/variabileAmbiente.png" /><br>
 
 Successivamente esegui il progetto utilizzando `./mvnw spring-boot:run` e apri postman per poter chiamare i diversi endpoint.
 
